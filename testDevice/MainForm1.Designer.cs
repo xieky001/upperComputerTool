@@ -42,6 +42,10 @@
             this.测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.查看协议ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mQTTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.服务配置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.消息发布ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.消息订阅ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +57,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.产品测试ToolStripMenuItem,
             this.工具ToolStripMenuItem,
+            this.mQTTToolStripMenuItem,
             this.其他ToolStripMenuItem,
             this.帮助ToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
@@ -137,6 +142,32 @@
             resources.ApplyResources(this.查看协议ToolStripMenuItem, "查看协议ToolStripMenuItem");
             this.查看协议ToolStripMenuItem.Click += new System.EventHandler(this.查看协议ToolStripMenuItem_Click);
             // 
+            // mQTTToolStripMenuItem
+            // 
+            this.mQTTToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.服务配置ToolStripMenuItem,
+            this.消息发布ToolStripMenuItem,
+            this.消息订阅ToolStripMenuItem});
+            this.mQTTToolStripMenuItem.Name = "mQTTToolStripMenuItem";
+            resources.ApplyResources(this.mQTTToolStripMenuItem, "mQTTToolStripMenuItem");
+            // 
+            // 服务配置ToolStripMenuItem
+            // 
+            this.服务配置ToolStripMenuItem.Name = "服务配置ToolStripMenuItem";
+            resources.ApplyResources(this.服务配置ToolStripMenuItem, "服务配置ToolStripMenuItem");
+            this.服务配置ToolStripMenuItem.Click += new System.EventHandler(this.服务配置ToolStripMenuItem_Click);
+            // 
+            // 消息发布ToolStripMenuItem
+            // 
+            this.消息发布ToolStripMenuItem.Name = "消息发布ToolStripMenuItem";
+            resources.ApplyResources(this.消息发布ToolStripMenuItem, "消息发布ToolStripMenuItem");
+            this.消息发布ToolStripMenuItem.Click += new System.EventHandler(this.消息发布ToolStripMenuItem_Click);
+            // 
+            // 消息订阅ToolStripMenuItem
+            // 
+            this.消息订阅ToolStripMenuItem.Name = "消息订阅ToolStripMenuItem";
+            resources.ApplyResources(this.消息订阅ToolStripMenuItem, "消息订阅ToolStripMenuItem");
+            // 
             // MainForm1
             // 
             resources.ApplyResources(this, "$this");
@@ -168,6 +199,10 @@
         private System.Windows.Forms.ToolStripMenuItem 打开端口ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 认证加密测试ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 查看协议ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mQTTToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 服务配置ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 消息发布ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 消息订阅ToolStripMenuItem;
     }
 }
 

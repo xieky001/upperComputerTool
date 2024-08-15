@@ -19,7 +19,7 @@
       "filepath": "protocoldata/188.json"
     }
   ],
-  "usertype": "dev", //dev/test/customer
+  "usertype": "test", //dev/test/customer
   "control": {
     "producttype": "ALL" //ALL/LORA
   }

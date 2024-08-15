@@ -1,0 +1,11 @@
+{
+  "server": //允许匿名访问时，username、password为空即可
+    {
+      "host": "127.0.0.1",
+      "port": "",
+      "username": "",
+      "password": "",
+      "defaulttopic": ""
+  }
+}
+

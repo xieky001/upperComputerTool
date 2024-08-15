@@ -121,21 +121,6 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="打开端口ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="打开端口ToolStripMenuItem.Text" xml:space="preserve">
-    <value>通讯配置</value>
-  </data>
-  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
-  </data>
-  <data name="loRawan测试ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="loRawan测试ToolStripMenuItem.Text" xml:space="preserve">
-    <value>串口通讯</value>
-  </data>
   <data name="产品测试ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 9pt</value>
   </data>
@@ -144,18 +129,6 @@
   </data>
   <data name="产品测试ToolStripMenuItem.Text" xml:space="preserve">
     <value>产品工具</value>
-  </data>
-  <data name="组装帧ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="组装帧ToolStripMenuItem.Text" xml:space="preserve">
-    <value>自组装帧</value>
-  </data>
-  <data name="通用工具ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="通用工具ToolStripMenuItem.Text" xml:space="preserve">
-    <value>通用工具</value>
   </data>
   <data name="工具ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 9pt</value>
@@ -166,17 +139,29 @@
   <data name="工具ToolStripMenuItem.Text" xml:space="preserve">
     <value>常用工具</value>
   </data>
-  <data name="认证加密测试ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="服务配置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="认证加密测试ToolStripMenuItem.Text" xml:space="preserve">
-    <value>认证加密测试</value>
+  <data name="服务配置ToolStripMenuItem.Text" xml:space="preserve">
+    <value>MQTT服务配置</value>
   </data>
-  <data name="测试ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="消息发布ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="测试ToolStripMenuItem.Text" xml:space="preserve">
-    <value>临时测试</value>
+  <data name="消息发布ToolStripMenuItem.Text" xml:space="preserve">
+    <value>消息发布</value>
+  </data>
+  <data name="消息订阅ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="消息订阅ToolStripMenuItem.Text" xml:space="preserve">
+    <value>消息订阅</value>
+  </data>
+  <data name="mQTTToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="mQTTToolStripMenuItem.Text" xml:space="preserve">
+    <value>MQTT</value>
   </data>
   <data name="其他ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 9pt</value>
@@ -186,12 +171,6 @@
   </data>
   <data name="其他ToolStripMenuItem.Text" xml:space="preserve">
     <value>测试</value>
-  </data>
-  <data name="查看协议ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="查看协议ToolStripMenuItem.Text" xml:space="preserve">
-    <value>查看协议</value>
   </data>
   <data name="帮助ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 9pt</value>
@@ -230,6 +209,51 @@
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="打开端口ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="打开端口ToolStripMenuItem.Text" xml:space="preserve">
+    <value>串口配置</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="loRawan测试ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="loRawan测试ToolStripMenuItem.Text" xml:space="preserve">
+    <value>串口通讯</value>
+  </data>
+  <data name="组装帧ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="组装帧ToolStripMenuItem.Text" xml:space="preserve">
+    <value>自组装帧</value>
+  </data>
+  <data name="通用工具ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="通用工具ToolStripMenuItem.Text" xml:space="preserve">
+    <value>通用工具</value>
+  </data>
+  <data name="认证加密测试ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="认证加密测试ToolStripMenuItem.Text" xml:space="preserve">
+    <value>认证加密测试</value>
+  </data>
+  <data name="测试ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="测试ToolStripMenuItem.Text" xml:space="preserve">
+    <value>临时测试</value>
+  </data>
+  <data name="查看协议ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="查看协议ToolStripMenuItem.Text" xml:space="preserve">
+    <value>查看协议</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -322,6 +346,30 @@
     <value>查看协议ToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;查看协议ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mQTTToolStripMenuItem.Name" xml:space="preserve">
+    <value>mQTTToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;mQTTToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;服务配置ToolStripMenuItem.Name" xml:space="preserve">
+    <value>服务配置ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;服务配置ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;消息发布ToolStripMenuItem.Name" xml:space="preserve">
+    <value>消息发布ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;消息发布ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;消息订阅ToolStripMenuItem.Name" xml:space="preserve">
+    <value>消息订阅ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;消息订阅ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

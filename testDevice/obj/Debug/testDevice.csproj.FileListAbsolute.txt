@@ -46,3 +46,6 @@ D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\frameConfig.json
 D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.tools.AutoAssembleFrameForm.resources
 D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.Lora.ConfigProtocolForm.resources
 D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.product.PortConfigForm.resources
+D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.pubform.ShowTextForm.resources
+D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\mqttConfig.json
+D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.MQTT.MqttForm.resources

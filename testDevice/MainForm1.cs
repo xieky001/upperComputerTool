@@ -9,9 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using testDevice.Lora;
+using testDevice.MQTT;
 using testDevice.product;
 using testDevice.protocols;
 using testDevice.pub;
+using testDevice.pubform;
 using testDevice.test;
 using testDevice.tools;
 
@@ -121,9 +123,23 @@ namespace testDevice
 
         private void 认证加密测试ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form authForm = new AuthForm();
-            authForm.MdiParent = this;
-            authForm.Show();
+            Form myForm = new AuthForm();
+            myForm.MdiParent = this;
+            myForm.Show();
+        }
+
+        private void 服务配置ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form myForm = new ShowTextForm("json", "protocoldata/mqttConfig.json", "");
+            myForm.MdiParent = this;
+            myForm.Show();
+        }
+
+        private void 消息发布ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form myForm = new MqttForm();
+            myForm.MdiParent = this;
+            myForm.Show();
         }
     }
 }
