@@ -1,0 +1,5 @@
+[
+{"keyFlag": "00010000","keyInfo": "正向有功总电能","isCanRead": true,"isCanEdit": false,"readControlCode": "11","setControlCode": "14"},
+{"keyFlag": "00150000","keyInfo": "A 相正向有功电能","isCanRead": true,"isCanEdit": false,"readControlCode": "11","setControlCode": "14"},
+{"keyFlag": "00290000","keyInfo": "B 相正向有功电能","isCanRead": true,"isCanEdit": false,"readControlCode": "11","setControlCode": "14"},
+]

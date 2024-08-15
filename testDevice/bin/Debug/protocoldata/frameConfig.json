@@ -1,0 +1,34 @@
+{
+  //format格式说明：汉语说明&控件编码&字节位数&默认值&是否只读（默认false）&是否倒序&是否+33
+  "protocol": [
+    {
+      "type": "97",
+      "text": "标准97",
+      "format": "起始符&begincode_1&1&68&true|地址域&address&6|起始符&begincode_2&1&68&true|控制码&controlcode&1|数据长度&datalen&1&0&true|数据标识&dataflag&1&&&true&true|数据&data&N&&&true&true|校验位CS&cs&1|结束符&endcode&1&16",
+      "calc_length": "datalen:dataflag,data", //【支持多组公式】计算结果字段:计算范围  范围说明： n-m 第n个组件到地m个组件；n,m,h 把每个需要计算的组件都列出来
+      "calc_cs": "cs:begincode_1-data" //【支持多组公式】计算结果字段:计算范围  范围说明： n-m 第n个组件到地m个组件；n,m,h 把每个需要计算的组件都列出来
+    },
+    {
+      "type": "07",
+      "text": "标准07",
+      "format": "起始符&begincode_1&1&68&true|地址域&address&6|起始符&begincode_2&1&68&true|控制码&controlcode&1|数据长度&datalen&1&0&true|数据标识&dataflag&2&&&true&true|数据&data&N&&&true&true|校验位CS&cs&1|结束符&endcode&1&16",
+      "calc_length": "datalen:dataflag,data", //【支持多组公式】计算结果字段:计算范围  范围说明： n-m 第n个组件到地m个组件；n,m,h 把每个需要计算的组件都列出来
+      "calc_cs": "cs:begincode_1-data" //【支持多组公式】计算结果字段:计算范围  范围说明： n-m 第n个组件到地m个组件；n,m,h 把每个需要计算的组件都列出来
+    },
+    {
+      "type": "188",
+      "text": "标准188",
+      "format": "起始符&begincode_1&1&68&true|表类型&metertype&1|地址域&address&7|控制码&controlcode&1|数据长度&datalen&1&0&true|数据标识&dataflag&1|序列号&serialnum&1|数据&data&N|校验位CS&cs&1|结束符&endcode&1&16",
+      "calc_length": "datalen:dataflag,serialnum,data", //【支持多组公式】计算结果字段:计算范围  范围说明： n-m 第n个组件到地m个组件；n,m,h 把每个需要计算的组件都列出来
+      "calc_cs": "cs:begincode_1-data" //【支持多组公式】计算结果字段:计算范围  范围说明： n-m 第n个组件到地m个组件；n,m,h 把每个需要计算的组件都列出来
+    },
+    {
+      "type": "wcfk_yn",
+      "text": "无磁阀控_伊宁个性化",
+      "format": "起始符&begincode&1&68&true|帧长&framelen&2&0&true|消息ID&mesid&2|控制码&controlcode&1|帧标识&frameflag&1|厂商ID&factoryid&1|设备类型&devicetype&1|设备ID长度&deviceidlen&1&0&true|设备ID&deviceid&6|数据长&datalength&1&0&true|数据标识&dataflag&1|数据&data&N|校验位CS&cs&1|结束符&endcode&1&16",
+      "calc_length": "deviceidlen:deviceid|framelen:framelen-data|datalength:data",
+      "calc_cs": "cs:framelen-data"
+    }
+  ]
+}
+

@@ -1,0 +1,27 @@
+{
+  "protocol": [
+    {
+      "type": "97",
+      "password": "0000",
+      "user": "0000",
+      "filepath": "protocoldata/97.json"
+    },
+    {
+      "type": "07",
+      "password": "00000000",
+      "user": "00000000",
+      "filepath": "protocoldata/07.json"
+    },
+    {
+      "type": "188",
+      "password": "",
+      "user": "",
+      "filepath": "protocoldata/188.json"
+    }
+  ],
+  "usertype": "dev", //dev/test/customer
+  "control": {
+    "producttype": "ALL" //ALL/LORA
+  }
+}
+

@@ -1,0 +1,6 @@
+[
+{"keyFlag": "901F","keyInfo": "读当前读计量数据","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
+{"keyFlag": "0A81","keyInfo": "读取表号（默认为DEVEUI参数后7字节）","isCanRead": true,"isCanEdit": false,"readControlCode": "03","setControlCode": "04"},
+{"keyFlag": "A016","keyInfo": "底度设置","isCanRead": false,"isCanEdit": true,"readControlCode": "01","setControlCode": "16"},
+{"keyFlag": "A017","keyInfo": "阀控指令","isCanRead": false,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
+]
