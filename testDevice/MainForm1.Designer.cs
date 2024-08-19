@@ -37,15 +37,15 @@
             this.工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.组装帧ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.通用工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mQTTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.服务配置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.消息发布ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.消息订阅ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.其他ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.认证加密测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.查看协议ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mQTTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.服务配置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.消息发布ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.消息订阅ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,6 +109,33 @@
             resources.ApplyResources(this.通用工具ToolStripMenuItem, "通用工具ToolStripMenuItem");
             this.通用工具ToolStripMenuItem.Click += new System.EventHandler(this.loRa水表ToolStripMenuItem_Click);
             // 
+            // mQTTToolStripMenuItem
+            // 
+            this.mQTTToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.服务配置ToolStripMenuItem,
+            this.消息发布ToolStripMenuItem,
+            this.消息订阅ToolStripMenuItem});
+            this.mQTTToolStripMenuItem.Name = "mQTTToolStripMenuItem";
+            resources.ApplyResources(this.mQTTToolStripMenuItem, "mQTTToolStripMenuItem");
+            // 
+            // 服务配置ToolStripMenuItem
+            // 
+            this.服务配置ToolStripMenuItem.Name = "服务配置ToolStripMenuItem";
+            resources.ApplyResources(this.服务配置ToolStripMenuItem, "服务配置ToolStripMenuItem");
+            this.服务配置ToolStripMenuItem.Click += new System.EventHandler(this.服务配置ToolStripMenuItem_Click);
+            // 
+            // 消息发布ToolStripMenuItem
+            // 
+            this.消息发布ToolStripMenuItem.Name = "消息发布ToolStripMenuItem";
+            resources.ApplyResources(this.消息发布ToolStripMenuItem, "消息发布ToolStripMenuItem");
+            this.消息发布ToolStripMenuItem.Click += new System.EventHandler(this.消息发布ToolStripMenuItem_Click);
+            // 
+            // 消息订阅ToolStripMenuItem
+            // 
+            this.消息订阅ToolStripMenuItem.Name = "消息订阅ToolStripMenuItem";
+            resources.ApplyResources(this.消息订阅ToolStripMenuItem, "消息订阅ToolStripMenuItem");
+            this.消息订阅ToolStripMenuItem.Click += new System.EventHandler(this.消息订阅ToolStripMenuItem_Click);
+            // 
             // 其他ToolStripMenuItem
             // 
             this.其他ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -141,32 +168,6 @@
             this.查看协议ToolStripMenuItem.Name = "查看协议ToolStripMenuItem";
             resources.ApplyResources(this.查看协议ToolStripMenuItem, "查看协议ToolStripMenuItem");
             this.查看协议ToolStripMenuItem.Click += new System.EventHandler(this.查看协议ToolStripMenuItem_Click);
-            // 
-            // mQTTToolStripMenuItem
-            // 
-            this.mQTTToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.服务配置ToolStripMenuItem,
-            this.消息发布ToolStripMenuItem,
-            this.消息订阅ToolStripMenuItem});
-            this.mQTTToolStripMenuItem.Name = "mQTTToolStripMenuItem";
-            resources.ApplyResources(this.mQTTToolStripMenuItem, "mQTTToolStripMenuItem");
-            // 
-            // 服务配置ToolStripMenuItem
-            // 
-            this.服务配置ToolStripMenuItem.Name = "服务配置ToolStripMenuItem";
-            resources.ApplyResources(this.服务配置ToolStripMenuItem, "服务配置ToolStripMenuItem");
-            this.服务配置ToolStripMenuItem.Click += new System.EventHandler(this.服务配置ToolStripMenuItem_Click);
-            // 
-            // 消息发布ToolStripMenuItem
-            // 
-            this.消息发布ToolStripMenuItem.Name = "消息发布ToolStripMenuItem";
-            resources.ApplyResources(this.消息发布ToolStripMenuItem, "消息发布ToolStripMenuItem");
-            this.消息发布ToolStripMenuItem.Click += new System.EventHandler(this.消息发布ToolStripMenuItem_Click);
-            // 
-            // 消息订阅ToolStripMenuItem
-            // 
-            this.消息订阅ToolStripMenuItem.Name = "消息订阅ToolStripMenuItem";
-            resources.ApplyResources(this.消息订阅ToolStripMenuItem, "消息订阅ToolStripMenuItem");
             // 
             // MainForm1
             // 

@@ -62,7 +62,7 @@ namespace testDevice
 
             loadMenu();
 
-            loadPortConfigForm();
+            //loadPortConfigForm();
         }
 
         private void loadMenu() {
@@ -130,14 +130,21 @@ namespace testDevice
 
         private void 服务配置ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form myForm = new ShowTextForm("json", "protocoldata/mqttConfig.json", "");
+            Form myForm = new ShowTextForm("", "protocoldata/mqttConfig.json", "",false);
             myForm.MdiParent = this;
             myForm.Show();
         }
 
         private void 消息发布ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form myForm = new MqttForm();
+            Form myForm = new MqttSendForm();
+            myForm.MdiParent = this;
+            myForm.Show();
+        }
+
+        private void 消息订阅ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form myForm = new MqttReceiveForm();
             myForm.MdiParent = this;
             myForm.Show();
         }

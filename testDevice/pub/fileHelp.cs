@@ -46,5 +46,23 @@ namespace testDevice.pub
             List<T> listObj = JsonConvert.DeserializeObject<List<T>>(strObjList);
             return listObj;
         }
+
+        //文件保存
+        public static Boolean saveFile(string filePath,string fileContent) {
+            if (!File.Exists(filePath))
+            {
+                MessageBox.Show("文件：" + filePath + "不存在！");
+                return false;
+            }
+            try
+            {
+                File.WriteAllText(filePath, fileContent,Encoding.UTF8);
+                return true;
+            }
+            catch (Exception ex) {                 
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
     }
 }

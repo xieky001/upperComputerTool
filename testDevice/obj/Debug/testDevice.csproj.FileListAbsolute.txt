@@ -48,4 +48,7 @@ D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.Lora.ConfigProtocolFo
 D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.product.PortConfigForm.resources
 D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.pubform.ShowTextForm.resources
 D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\mqttConfig.json
-D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.MQTT.MqttForm.resources
+D:\DEV\testTool\testDevice\testDevice\bin\Debug\M2Mqtt.Net.dll
+D:\DEV\testTool\testDevice\testDevice\bin\Debug\M2Mqtt.Net.pdb
+D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.MQTT.MqttReceiveForm.resources
+D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.MQTT.MqttSendForm.resources

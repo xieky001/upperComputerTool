@@ -28,19 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textShowResult = new System.Windows.Forms.TextBox();
+            this.txtShowResult = new System.Windows.Forms.TextBox();
             this.labInfo = new System.Windows.Forms.Label();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnFormat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textShowResult
+            // txtShowResult
             // 
-            this.textShowResult.Location = new System.Drawing.Point(1, 20);
-            this.textShowResult.Multiline = true;
-            this.textShowResult.Name = "textShowResult";
-            this.textShowResult.ReadOnly = true;
-            this.textShowResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textShowResult.Size = new System.Drawing.Size(624, 396);
-            this.textShowResult.TabIndex = 0;
+            this.txtShowResult.Location = new System.Drawing.Point(1, 20);
+            this.txtShowResult.Multiline = true;
+            this.txtShowResult.Name = "txtShowResult";
+            this.txtShowResult.ReadOnly = true;
+            this.txtShowResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtShowResult.Size = new System.Drawing.Size(624, 396);
+            this.txtShowResult.TabIndex = 0;
             // 
             // labInfo
             // 
@@ -51,13 +53,37 @@
             this.labInfo.TabIndex = 1;
             this.labInfo.Text = "格式:";
             // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(560, 0);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(56, 20);
+            this.btnSave.TabIndex = 2;
+            this.btnSave.Text = "保存";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Visible = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnFormat
+            // 
+            this.btnFormat.Location = new System.Drawing.Point(486, 0);
+            this.btnFormat.Name = "btnFormat";
+            this.btnFormat.Size = new System.Drawing.Size(68, 20);
+            this.btnFormat.TabIndex = 3;
+            this.btnFormat.Text = "格式验证";
+            this.btnFormat.UseVisualStyleBackColor = true;
+            this.btnFormat.Visible = false;
+            this.btnFormat.Click += new System.EventHandler(this.btnFormat_Click);
+            // 
             // ShowTextForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(628, 416);
+            this.Controls.Add(this.btnFormat);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.labInfo);
-            this.Controls.Add(this.textShowResult);
+            this.Controls.Add(this.txtShowResult);
             this.Name = "ShowTextForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "文本内容展示";
@@ -69,7 +95,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textShowResult;
+        private System.Windows.Forms.TextBox txtShowResult;
         private System.Windows.Forms.Label labInfo;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnFormat;
     }
 }

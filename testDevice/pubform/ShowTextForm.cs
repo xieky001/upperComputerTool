@@ -15,17 +15,26 @@ namespace testDevice.pubform
 {
     public partial class ShowTextForm : Form
     {
+        string fileContent;
         string txtFormat;
         string filePath;
         string strText;
+        Boolean isWrite;
 
-        public ShowTextForm(string pFormat,string pFilePath,string pStrText)
+        public ShowTextForm(string pFormat,string pFilePath,string pStrText,Boolean pIsWrite = false)
         {
             InitializeComponent();
 
             txtFormat = pFormat;
             filePath = pFilePath;
             strText = pStrText;
+            isWrite = pIsWrite;
+
+            if (isWrite) {
+                txtShowResult.ReadOnly = false;
+                btnFormat.Visible = true;
+                btnSave.Visible = true;
+            }
         }
 
         private void ShowTextForm_Load(object sender, EventArgs e)
@@ -44,12 +53,12 @@ namespace testDevice.pubform
         }
 
         private void showFileText() {
-            textShowResult.Text = dataFormat(fileHelp.getStringFromFile(filePath));
+            txtShowResult.Text = dataFormat(fileHelp.getStringFromFile(filePath));
         }
 
         private void showStringText()
         {
-            textShowResult.Text = dataFormat(strText);
+            txtShowResult.Text = dataFormat(strText);
         }
 
         private string dataFormat(string strs) {
@@ -63,6 +72,37 @@ namespace testDevice.pubform
                     break;
             }
             return strResult;
+        }
+
+        private void btnFormat_Click(object sender, EventArgs e)
+        {
+            fileContent = strJsonFormat();
+            if (string.IsNullOrEmpty(fileContent)) return;
+
+            MessageBox.Show("格式正确!");
+        }
+
+        private string strJsonFormat() {
+            try
+            {
+                return JsonConvert.DeserializeObject(txtShowResult.Text).ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return "";
+            }
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            fileContent = strJsonFormat();
+            if (fileContent == "") return;
+
+            if (fileHelp.saveFile(filePath, fileContent)){
+                MessageBox.Show("保存成功！");
+                showFileText();
+            }
         }
     }
 }
