@@ -31,14 +31,12 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.labServerStatus = new System.Windows.Forms.Label();
             this.btnConnect = new System.Windows.Forms.Button();
-            this.labClient = new System.Windows.Forms.Label();
             this.labPassword = new System.Windows.Forms.Label();
             this.labUsername = new System.Windows.Forms.Label();
             this.labPort = new System.Windows.Forms.Label();
             this.btnSend = new System.Windows.Forms.Button();
             this.txtSend = new System.Windows.Forms.TextBox();
             this.labHost = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,7 +49,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(480, 402);
+            this.btnClear.Location = new System.Drawing.Point(449, 397);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(72, 20);
             this.btnClear.TabIndex = 11;
@@ -77,14 +75,6 @@
             this.btnConnect.Text = "启动";
             this.btnConnect.UseVisualStyleBackColor = true;
             this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
-            // 
-            // labClient
-            // 
-            this.labClient.AutoSize = true;
-            this.labClient.Location = new System.Drawing.Point(77, 40);
-            this.labClient.Name = "labClient";
-            this.labClient.Size = new System.Drawing.Size(0, 12);
-            this.labClient.TabIndex = 10;
             // 
             // labPassword
             // 
@@ -112,7 +102,7 @@
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(480, 376);
+            this.btnSend.Location = new System.Drawing.Point(449, 371);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(72, 20);
             this.btnSend.TabIndex = 9;
@@ -126,7 +116,7 @@
             this.txtSend.Location = new System.Drawing.Point(3, 339);
             this.txtSend.Multiline = true;
             this.txtSend.Name = "txtSend";
-            this.txtSend.Size = new System.Drawing.Size(440, 94);
+            this.txtSend.Size = new System.Drawing.Size(403, 94);
             this.txtSend.TabIndex = 8;
             // 
             // labHost
@@ -137,15 +127,6 @@
             this.labHost.Name = "labHost";
             this.labHost.Size = new System.Drawing.Size(0, 12);
             this.labHost.TabIndex = 6;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(24, 40);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 12);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "客户端ID:";
             // 
             // label3
             // 
@@ -198,12 +179,10 @@
             // 
             this.groupBox1.Controls.Add(this.labServerStatus);
             this.groupBox1.Controls.Add(this.btnConnect);
-            this.groupBox1.Controls.Add(this.labClient);
             this.groupBox1.Controls.Add(this.labPassword);
             this.groupBox1.Controls.Add(this.labUsername);
             this.groupBox1.Controls.Add(this.labPort);
             this.groupBox1.Controls.Add(this.labHost);
-            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -219,9 +198,9 @@
             // 
             this.cmbClientlist.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbClientlist.FormattingEnabled = true;
-            this.cmbClientlist.Location = new System.Drawing.Point(449, 339);
+            this.cmbClientlist.Location = new System.Drawing.Point(412, 339);
             this.cmbClientlist.Name = "cmbClientlist";
-            this.cmbClientlist.Size = new System.Drawing.Size(121, 20);
+            this.cmbClientlist.Size = new System.Drawing.Size(158, 20);
             this.cmbClientlist.TabIndex = 12;
             this.cmbClientlist.SelectedIndexChanged += new System.EventHandler(this.cmbClientlist_SelectedIndexChanged);
             // 
@@ -252,14 +231,12 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label labServerStatus;
         private System.Windows.Forms.Button btnConnect;
-        private System.Windows.Forms.Label labClient;
         private System.Windows.Forms.Label labPassword;
         private System.Windows.Forms.Label labUsername;
         private System.Windows.Forms.Label labPort;
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.TextBox txtSend;
         private System.Windows.Forms.Label labHost;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

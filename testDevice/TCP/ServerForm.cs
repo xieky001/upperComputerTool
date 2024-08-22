@@ -102,7 +102,7 @@ namespace testDevice.TCP
                 }
                 catch (Exception ex)
                 {
-                    showMessage(rtxtSendMsg,"监听客户端异常：" + ex.Message, true);
+                    pubFuncs.showInfoByTextBox(this, rtxtSendMsg, "监听客户端异常：" + ex.Message, true);
                 }
             }
         }
@@ -138,15 +138,15 @@ namespace testDevice.TCP
                                     item.Name = splitStrs[0];
                                     item.IPAddress = splitStrs[1];
                                 }
+                                else { 
+                                    
+                                }
                                 tcpClients[itemIndex] = item;
 
-                                this.Invoke(
-                                    new Action(() => {
-                                        if (!cmbClientlist.Items.Contains(item.Name + "：" + item.IPAddress)) {
-                                            cmbClientlist.Items.Add(item.Name + "：" + item.IPAddress);
-                                        }
-                                    })
-                                 );
+                                if (!cmbClientlist.Items.Contains(item.Name + "：" + item.IPAddress))
+                                {
+                                    pubFuncs.cmbItemsManage(this, cmbClientlist, "add", item.Name + "：" + item.IPAddress);
+                                }
                             }
                         }
                     }
@@ -156,14 +156,19 @@ namespace testDevice.TCP
                             ClientInfo item = tcpClients.FirstOrDefault(p => p.Client == tcpClient);
                             if (item != null)
                             {
-                                msgPrefix = "【" + item.Name + "：" + item.IPAddress + "】：";
+                                if (string.IsNullOrEmpty(item.Name) && !string.IsNullOrEmpty(item.Client.Client.RemoteEndPoint.ToString())) {
+                                    item.IPAddress = item.Client.Client.RemoteEndPoint.ToString();
+                                    item.Name = "未知";
+                                    pubFuncs.cmbItemsManage(this, cmbClientlist, "add", item.Name + "：" + item.IPAddress);
+                                }
+                                msgPrefix = "【" + item.Name + "：" + item.IPAddress + "】：";                                
                             }
-                            showMessage(rtxtSendMsg, msgPrefix + message, true);
+                            pubFuncs.showInfoByTextBox(this, rtxtSendMsg, msgPrefix + message);
                         }
                     }
                 }
                 catch (Exception ex) {
-                    showMessage(rtxtSendMsg,"处理消息异常：" + ex.Message, true);
+                    pubFuncs.showInfoByTextBox(this, rtxtSendMsg, "处理消息异常：" + ex.Message, true);
                 }
             }
             nStream.Close();
@@ -175,20 +180,17 @@ namespace testDevice.TCP
             {
                 tclient.Close();
                 ClientInfo item = tcpClients.FirstOrDefault(p => p.Client == tclient);
+                if (item == null) return;
                 lock (lockObj)
-                {
+                {                    
+                    pubFuncs.cmbItemsManage(this, cmbClientlist, "remove", item.Name + "：" + item.IPAddress);
                     tcpClients.Remove(item);
-                    this.Invoke(
-                        new Action(() => {
-                            cmbClientlist.Items.Remove(item.Name + "：" + item.IPAddress);                            
-                        })
-                     );
                 }
-                showMessage(rtxtSendMsg, item.Name + "：" + item.IPAddress + " 已断开", true);
+                pubFuncs.showInfoByTextBox(this, rtxtSendMsg, item.Name + "：" + item.IPAddress + " 已断开", true);
             }
             catch (Exception ex)
             {
-                showMessage(rtxtSendMsg, ex.Message, true);
+                pubFuncs.showInfoByTextBox(this, rtxtSendMsg, ex.Message, true);
             }
         }
 
@@ -207,12 +209,8 @@ namespace testDevice.TCP
                     }
                     catch (Exception ex) {
                         tcpClients.Remove(item);
-                        this.Invoke(
-                            new Action(() => {
-                                cmbClientlist.Items.Remove(item.Name + "：" + item.IPAddress);
-                            })
-                         );
-                        continue;
+                        pubFuncs.cmbItemsManage(this, cmbClientlist, "remove", item.Name + "：" + item.IPAddress);
+                        break;
                     }
                 }
                 Thread.Sleep(3000);
@@ -224,27 +222,9 @@ namespace testDevice.TCP
             rtxtSendMsg.Clear();
         }
 
-        private void showMessage(TextBoxBase tbb, string msg, Boolean isTaskCall = false)
-        {
-            if (isTaskCall)
-            {
-                this.Invoke(
-                    new Action(() => {
-                        tbb.AppendText(Environment.NewLine + msg);
-                        tbb.ScrollToCaret();
-                    })
-                 );
-            }
-            else
-            {
-                tbb.AppendText(Environment.NewLine + msg);
-                tbb.ScrollToCaret();
-            }
-        }
-
         private void btnSend_Click(object sender, EventArgs e)
         {
-            if (curClient == null)
+            if (curClient == null || cmbClientlist.SelectedItem == null)
             {
                 MessageBox.Show("请选择客户端！");
                 return;

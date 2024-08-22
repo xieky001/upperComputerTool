@@ -31,12 +31,10 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.labServerStatus = new System.Windows.Forms.Label();
             this.btnConnect = new System.Windows.Forms.Button();
-            this.labClient = new System.Windows.Forms.Label();
             this.labPassword = new System.Windows.Forms.Label();
             this.labUsername = new System.Windows.Forms.Label();
             this.labPort = new System.Windows.Forms.Label();
             this.labHost = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,12 +50,10 @@
             // 
             this.groupBox1.Controls.Add(this.labServerStatus);
             this.groupBox1.Controls.Add(this.btnConnect);
-            this.groupBox1.Controls.Add(this.labClient);
             this.groupBox1.Controls.Add(this.labPassword);
             this.groupBox1.Controls.Add(this.labUsername);
             this.groupBox1.Controls.Add(this.labPort);
             this.groupBox1.Controls.Add(this.labHost);
-            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -87,14 +83,6 @@
             this.btnConnect.Text = "连接";
             this.btnConnect.UseVisualStyleBackColor = true;
             this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
-            // 
-            // labClient
-            // 
-            this.labClient.AutoSize = true;
-            this.labClient.Location = new System.Drawing.Point(77, 40);
-            this.labClient.Name = "labClient";
-            this.labClient.Size = new System.Drawing.Size(0, 12);
-            this.labClient.TabIndex = 10;
             // 
             // labPassword
             // 
@@ -128,15 +116,6 @@
             this.labHost.Name = "labHost";
             this.labHost.Size = new System.Drawing.Size(0, 12);
             this.labHost.TabIndex = 6;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(24, 40);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 12);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "客户端ID:";
             // 
             // label4
             // 
@@ -241,12 +220,10 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label labServerStatus;
         private System.Windows.Forms.Button btnConnect;
-        private System.Windows.Forms.Label labClient;
         private System.Windows.Forms.Label labPassword;
         private System.Windows.Forms.Label labUsername;
         private System.Windows.Forms.Label labPort;
         private System.Windows.Forms.Label labHost;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

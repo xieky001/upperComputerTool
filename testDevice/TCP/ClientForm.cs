@@ -79,7 +79,7 @@ namespace testDevice.TCP
             }
             catch (Exception ex)
             {
-                MessageBox.Show("其他异常1：" + ex.Message);
+                pubFuncs.showInfoByTextBox(this, rtxtSendMsg, "其他异常1：" + ex.Message, true);
                 btnConnect.Enabled = true;
                 return;
             }
@@ -88,7 +88,7 @@ namespace testDevice.TCP
             {
                 cts = new CancellationTokenSource();
                 cts.Token.Register(() => {
-                    showMessage(rtxtSendMsg, "线程已断开", false);
+                    pubFuncs.showInfoByTextBox(this, rtxtSendMsg, "线程已断开：", true);
                 });
                 Task.Factory.StartNew(() => {
                     sendHeartBeat();
@@ -99,7 +99,7 @@ namespace testDevice.TCP
                 },cts.Token);
             }
             catch (Exception ex) {
-                MessageBox.Show("其他异常2：" + ex.Message);
+                pubFuncs.showInfoByTextBox(this, rtxtSendMsg, "其他异常2：" + ex.Message, true);
                 return;
             }
         }
@@ -117,12 +117,12 @@ namespace testDevice.TCP
                     {
                         msg = Encoding.UTF8.GetString(bytes, 0, bytesReadLength);
                         if (msg != "[@TestClient@]") {
-                            showMessage(rtxtSendMsg, "【server message】：" + msg, true);
+                            pubFuncs.showInfoByTextBox(this, rtxtSendMsg, "【server message】：" + msg);
                         }
                     }
                 }
                 catch (Exception ex) {
-                    showMessage(rtxtSendMsg, "监听消息异常：" + ex.Message, true);
+                    pubFuncs.showInfoByTextBox(this, rtxtSendMsg, "监听消息异常：" + ex.Message,true);
                     break;
                 }
             }
@@ -146,7 +146,7 @@ namespace testDevice.TCP
                     Thread.Sleep(2000);
                 }
                 catch (Exception ex) {
-                    showMessage(rtxtSendMsg, "发送心跳异常：" + ex.Message, true);
+                    pubFuncs.showInfoByTextBox(this, rtxtSendMsg, "发送心跳异常：" + ex.Message, true);
                     break;
                 }
             }
@@ -189,36 +189,13 @@ namespace testDevice.TCP
                 }
             }
             catch (Exception ex) {
-                MessageBox.Show(ex.Message);
+                pubFuncs.showInfoByTextBox(this, rtxtSendMsg, "发送信息异常：" + ex.Message, true);
             }
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
             rtxtSendMsg.Clear();
-        }
-
-        private void showMessage(TextBoxBase tbb, string msg, Boolean isTaskCall = false)
-        {
-            try
-            {
-                if (isTaskCall)
-                {
-                    this.Invoke(
-                        new Action(() =>
-                        {
-                            tbb.AppendText(Environment.NewLine + msg);
-                            tbb.ScrollToCaret();
-                        })
-                     );
-                }
-                else
-                {
-                    tbb.AppendText(Environment.NewLine + msg);
-                    tbb.ScrollToCaret();
-                }
-            }
-            catch { }
         }
 
         private void ClientForm_FormClosed(object sender, FormClosedEventArgs e)
