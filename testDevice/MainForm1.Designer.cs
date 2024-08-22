@@ -35,6 +35,7 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.loRawan测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.配置文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.组装帧ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.通用工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mQTTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,6 +47,12 @@
             this.测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.查看协议ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tCPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uDPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tCPToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.uDP配置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.服务端ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.客户端ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,6 +65,8 @@
             this.产品测试ToolStripMenuItem,
             this.工具ToolStripMenuItem,
             this.mQTTToolStripMenuItem,
+            this.tCPToolStripMenuItem,
+            this.uDPToolStripMenuItem,
             this.其他ToolStripMenuItem,
             this.帮助ToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
@@ -92,10 +101,17 @@
             // 工具ToolStripMenuItem
             // 
             this.工具ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.配置文件ToolStripMenuItem,
             this.组装帧ToolStripMenuItem,
             this.通用工具ToolStripMenuItem});
             resources.ApplyResources(this.工具ToolStripMenuItem, "工具ToolStripMenuItem");
             this.工具ToolStripMenuItem.Name = "工具ToolStripMenuItem";
+            // 
+            // 配置文件ToolStripMenuItem
+            // 
+            this.配置文件ToolStripMenuItem.Name = "配置文件ToolStripMenuItem";
+            resources.ApplyResources(this.配置文件ToolStripMenuItem, "配置文件ToolStripMenuItem");
+            this.配置文件ToolStripMenuItem.Click += new System.EventHandler(this.配置文件ToolStripMenuItem_Click);
             // 
             // 组装帧ToolStripMenuItem
             // 
@@ -169,6 +185,45 @@
             resources.ApplyResources(this.查看协议ToolStripMenuItem, "查看协议ToolStripMenuItem");
             this.查看协议ToolStripMenuItem.Click += new System.EventHandler(this.查看协议ToolStripMenuItem_Click);
             // 
+            // tCPToolStripMenuItem
+            // 
+            this.tCPToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tCPToolStripMenuItem1,
+            this.服务端ToolStripMenuItem,
+            this.客户端ToolStripMenuItem});
+            this.tCPToolStripMenuItem.Name = "tCPToolStripMenuItem";
+            resources.ApplyResources(this.tCPToolStripMenuItem, "tCPToolStripMenuItem");
+            // 
+            // uDPToolStripMenuItem
+            // 
+            this.uDPToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.uDP配置ToolStripMenuItem});
+            this.uDPToolStripMenuItem.Name = "uDPToolStripMenuItem";
+            resources.ApplyResources(this.uDPToolStripMenuItem, "uDPToolStripMenuItem");
+            // 
+            // tCPToolStripMenuItem1
+            // 
+            this.tCPToolStripMenuItem1.Name = "tCPToolStripMenuItem1";
+            resources.ApplyResources(this.tCPToolStripMenuItem1, "tCPToolStripMenuItem1");
+            this.tCPToolStripMenuItem1.Click += new System.EventHandler(this.tCPToolStripMenuItem1_Click);
+            // 
+            // uDP配置ToolStripMenuItem
+            // 
+            this.uDP配置ToolStripMenuItem.Name = "uDP配置ToolStripMenuItem";
+            resources.ApplyResources(this.uDP配置ToolStripMenuItem, "uDP配置ToolStripMenuItem");
+            // 
+            // 服务端ToolStripMenuItem
+            // 
+            this.服务端ToolStripMenuItem.Name = "服务端ToolStripMenuItem";
+            resources.ApplyResources(this.服务端ToolStripMenuItem, "服务端ToolStripMenuItem");
+            this.服务端ToolStripMenuItem.Click += new System.EventHandler(this.服务端ToolStripMenuItem_Click);
+            // 
+            // 客户端ToolStripMenuItem
+            // 
+            this.客户端ToolStripMenuItem.Name = "客户端ToolStripMenuItem";
+            resources.ApplyResources(this.客户端ToolStripMenuItem, "客户端ToolStripMenuItem");
+            this.客户端ToolStripMenuItem.Click += new System.EventHandler(this.客户端ToolStripMenuItem_Click);
+            // 
             // MainForm1
             // 
             resources.ApplyResources(this, "$this");
@@ -204,6 +259,13 @@
         private System.Windows.Forms.ToolStripMenuItem 服务配置ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 消息发布ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 消息订阅ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 配置文件ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tCPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem uDPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tCPToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem uDP配置ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 服务端ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 客户端ToolStripMenuItem;
     }
 }
 

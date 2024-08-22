@@ -19,36 +19,62 @@ namespace testDevice.pubform
         string txtFormat;
         string filePath;
         string strText;
-        Boolean isWrite;
+        Boolean isCanWrite;
 
-        public ShowTextForm(string pFormat,string pFilePath,string pStrText,Boolean pIsWrite = false)
+        public ShowTextForm(string pFormat,string pFilePath,string pStrText,Boolean pIsCanWrite = false,Boolean pIsCanSelectFile = false)
         {
             InitializeComponent();
 
             txtFormat = pFormat;
             filePath = pFilePath;
             strText = pStrText;
-            isWrite = pIsWrite;
+            isCanWrite = pIsCanWrite;
 
-            if (isWrite) {
+            if (isCanWrite) {
                 txtShowResult.ReadOnly = false;
                 btnFormat.Visible = true;
                 btnSave.Visible = true;
+            }
+            if (pIsCanSelectFile) {
+                cmbFiles.Enabled = true;
+            }
+            else {
+                cmbFiles.Enabled = false;
             }
         }
 
         private void ShowTextForm_Load(object sender, EventArgs e)
         {
-            labInfo.Text += txtFormat;
+            if (string.IsNullOrEmpty(txtFormat))
+            {
+                labInfo.Text += "json";
+            }
+            else {
+                labInfo.Text += txtFormat;
+            }
+
+            loadConfigFiles();
+
             if (!string.IsNullOrEmpty(filePath.Trim()))
             {
-                labInfo.Text += "; 文件路径：" + filePath;
                 showFileText();
             }
 
             if (!string.IsNullOrEmpty(strText.Trim()))
             {
-                showFileText();
+                cmbFiles.Visible = false;
+                showStringText();
+            }
+        }
+
+        //加载文件列表
+        private void loadConfigFiles() { 
+            string[] files = Directory.GetFiles("protocoldata");
+            foreach (string file in files) { 
+                cmbFiles.Items.Add(file);
+                if (filePath == file) { 
+                    cmbFiles.SelectedItem = file;
+                }
             }
         }
 
@@ -103,6 +129,12 @@ namespace testDevice.pubform
                 MessageBox.Show("保存成功！");
                 showFileText();
             }
+        }
+
+        private void cmbFiles_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            filePath = cmbFiles.SelectedItem.ToString();
+            showFileText();
         }
     }
 }

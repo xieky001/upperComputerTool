@@ -52,3 +52,7 @@ D:\DEV\testTool\testDevice\testDevice\bin\Debug\M2Mqtt.Net.dll
 D:\DEV\testTool\testDevice\testDevice\bin\Debug\M2Mqtt.Net.pdb
 D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.MQTT.MqttReceiveForm.resources
 D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.MQTT.MqttSendForm.resources
+D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\tcpConfig.json
+D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.TCP.ClientForm.resources
+D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.TCP.ServerForm.resources
+D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\tcpClientConfig.json

@@ -32,10 +32,12 @@
             this.labInfo = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnFormat = new System.Windows.Forms.Button();
+            this.cmbFiles = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // txtShowResult
             // 
+            this.txtShowResult.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtShowResult.Location = new System.Drawing.Point(1, 20);
             this.txtShowResult.Multiline = true;
             this.txtShowResult.Name = "txtShowResult";
@@ -43,11 +45,12 @@
             this.txtShowResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtShowResult.Size = new System.Drawing.Size(624, 396);
             this.txtShowResult.TabIndex = 0;
+            this.txtShowResult.TabStop = false;
             // 
             // labInfo
             // 
             this.labInfo.AutoSize = true;
-            this.labInfo.Location = new System.Drawing.Point(12, 5);
+            this.labInfo.Location = new System.Drawing.Point(6, 3);
             this.labInfo.Name = "labInfo";
             this.labInfo.Size = new System.Drawing.Size(35, 12);
             this.labInfo.TabIndex = 1;
@@ -75,11 +78,22 @@
             this.btnFormat.Visible = false;
             this.btnFormat.Click += new System.EventHandler(this.btnFormat_Click);
             // 
+            // cmbFiles
+            // 
+            this.cmbFiles.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFiles.FormattingEnabled = true;
+            this.cmbFiles.Location = new System.Drawing.Point(74, 0);
+            this.cmbFiles.Name = "cmbFiles";
+            this.cmbFiles.Size = new System.Drawing.Size(240, 20);
+            this.cmbFiles.TabIndex = 4;
+            this.cmbFiles.SelectedIndexChanged += new System.EventHandler(this.cmbFiles_SelectedIndexChanged);
+            // 
             // ShowTextForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(628, 416);
+            this.Controls.Add(this.cmbFiles);
             this.Controls.Add(this.btnFormat);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.labInfo);
@@ -99,5 +113,6 @@
         private System.Windows.Forms.Label labInfo;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnFormat;
+        private System.Windows.Forms.ComboBox cmbFiles;
     }
 }

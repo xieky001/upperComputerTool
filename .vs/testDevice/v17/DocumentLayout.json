@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\DEV\\testTool\\testDevice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\mqtt\\mqttsendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\mqtt\\mqttsendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\tcp\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\tcp\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\mqtt\\mqttsendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\mqtt\\mqttsendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|D:\\DEV\\testTool\\testDevice\\testdevice\\mainform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\mainform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\mqtt\\mqttreceiveform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\mqtt\\mqttreceiveform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\tcp\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\tcp\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\mqtt\\mqttreceiveform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\mqtt\\mqttreceiveform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\tcp\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\tcp\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\tcp\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\tcp\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\mainform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\mainform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,53 +42,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MqttSendForm.cs",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\MQTT\\MqttSendForm.cs",
-              "RelativeDocumentMoniker": "testDevice\\MQTT\\MqttSendForm.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\MQTT\\MqttSendForm.cs",
-              "RelativeToolTip": "testDevice\\MQTT\\MqttSendForm.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAFQAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "MainForm1.cs",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\MainForm1.cs",
+              "RelativeDocumentMoniker": "testDevice\\MainForm1.cs",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\MainForm1.cs",
+              "RelativeToolTip": "testDevice\\MainForm1.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwCcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T06:26:11.537Z",
+              "WhenOpened": "2024-08-21T09:28:22.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MqttSendForm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\MQTT\\MqttSendForm.cs",
-              "RelativeDocumentMoniker": "testDevice\\MQTT\\MqttSendForm.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\MQTT\\MqttSendForm.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "testDevice\\MQTT\\MqttSendForm.cs [\u8BBE\u8BA1]",
+              "DocumentIndex": 0,
+              "Title": "ServerForm.cs",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ServerForm.cs",
+              "RelativeDocumentMoniker": "testDevice\\TCP\\ServerForm.cs",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ServerForm.cs",
+              "RelativeToolTip": "testDevice\\TCP\\ServerForm.cs",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAvwAABAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T06:17:38.403Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-08-21T09:15:22.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientForm.cs",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ClientForm.cs",
+              "RelativeDocumentMoniker": "testDevice\\TCP\\ClientForm.cs",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ClientForm.cs",
+              "RelativeToolTip": "testDevice\\TCP\\ClientForm.cs",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAewOEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T07:24:25.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MqttReceiveForm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\MQTT\\MqttReceiveForm.cs",
-              "RelativeDocumentMoniker": "testDevice\\MQTT\\MqttReceiveForm.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\MQTT\\MqttReceiveForm.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "testDevice\\MQTT\\MqttReceiveForm.cs [\u8BBE\u8BA1]",
+              "Title": "ClientForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ClientForm.cs",
+              "RelativeDocumentMoniker": "testDevice\\TCP\\ClientForm.cs",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ClientForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "testDevice\\TCP\\ClientForm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T06:19:55.639Z",
+              "WhenOpened": "2024-08-20T05:22:48.46Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MqttReceiveForm.cs",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\MQTT\\MqttReceiveForm.cs",
-              "RelativeDocumentMoniker": "testDevice\\MQTT\\MqttReceiveForm.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\MQTT\\MqttReceiveForm.cs",
-              "RelativeToolTip": "testDevice\\MQTT\\MqttReceiveForm.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAcwFgAAAARAAAA",
+              "Title": "ServerForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ServerForm.cs",
+              "RelativeDocumentMoniker": "testDevice\\TCP\\ServerForm.cs",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ServerForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "testDevice\\TCP\\ServerForm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T06:18:12.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T05:22:29.504Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\MainForm1.cs",
+              "RelativeDocumentMoniker": "testDevice\\MainForm1.cs",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\MainForm1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "testDevice\\MainForm1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T02:47:23.558Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
             }
           ]
         }
