@@ -245,5 +245,20 @@ namespace testDevice.TCP
                 }
             }
         }
+
+        private void ServerForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            releaseClient();
+        }
+
+        private void releaseClient()
+        {
+            cts.Cancel();
+            if (tcpListener != null)
+            {
+                tcpListener.Stop();
+                tcpListener = null;
+            }
+        }
     }
 }

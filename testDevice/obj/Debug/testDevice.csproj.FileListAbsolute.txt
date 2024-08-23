@@ -56,3 +56,7 @@ D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\tcpConfig.json
 D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.TCP.ClientForm.resources
 D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.TCP.ServerForm.resources
 D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\tcpClientConfig.json
+D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\udpClientConfig.json
+D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\udpConfig.json
+D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.UDP.UDPClientForm.resources
+D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.UDP.UDPServerForm.resources

@@ -15,6 +15,7 @@ using testDevice.protocols;
 using testDevice.pub;
 using testDevice.pubform;
 using testDevice.TCP;
+using testDevice.UDP;
 using testDevice.test;
 using testDevice.tools;
 
@@ -225,6 +226,33 @@ namespace testDevice
             else
             {
                 return true;
+            }
+        }
+
+        private void uDP配置ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form myForm = new ShowTextForm("json", "protocoldata\\udpConfig.json", "", false);
+            myForm.MdiParent = this;
+            myForm.Show();
+        }
+
+        private void 服务端ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (!IsHaveExists("UDPServerForm"))
+            {
+                Form myForm = new UDPServerForm();
+                myForm.MdiParent = this;
+                myForm.Show();
+            }
+        }
+
+        private void 客户端ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (!IsHaveExists("UDPClientForm"))
+            {
+                Form myForm = new UDPClientForm();
+                myForm.MdiParent = this;
+                myForm.Show();
             }
         }
     }

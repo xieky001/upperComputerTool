@@ -1,6 +1,6 @@
-﻿namespace testDevice.TCP
+﻿namespace testDevice.UDP
 {
-    partial class ServerForm
+    partial class UDPServerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -43,13 +43,12 @@
             this.rtxtSendMsg = new System.Windows.Forms.RichTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cmbClientlist = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(449, 397);
+            this.btnClear.Location = new System.Drawing.Point(454, 388);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(72, 20);
             this.btnClear.TabIndex = 11;
@@ -102,7 +101,7 @@
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(449, 371);
+            this.btnSend.Location = new System.Drawing.Point(454, 362);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(72, 20);
             this.btnSend.TabIndex = 9;
@@ -194,31 +193,20 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "连接信息";
             // 
-            // cmbClientlist
-            // 
-            this.cmbClientlist.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbClientlist.FormattingEnabled = true;
-            this.cmbClientlist.Location = new System.Drawing.Point(412, 339);
-            this.cmbClientlist.Name = "cmbClientlist";
-            this.cmbClientlist.Size = new System.Drawing.Size(158, 20);
-            this.cmbClientlist.TabIndex = 12;
-            this.cmbClientlist.SelectedIndexChanged += new System.EventHandler(this.cmbClientlist_SelectedIndexChanged);
-            // 
-            // ServerForm
+            // UDPServerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(574, 429);
-            this.Controls.Add(this.cmbClientlist);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtSend);
             this.Controls.Add(this.rtxtSendMsg);
             this.Controls.Add(this.groupBox1);
-            this.Name = "ServerForm";
+            this.Name = "UDPServerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ServerForm";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ServerForm_FormClosed);
+            this.Text = "UDPServerForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.UDPServerForm_FormClosed);
             this.Load += new System.EventHandler(this.ServerForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -244,6 +232,5 @@
         private System.Windows.Forms.RichTextBox rtxtSendMsg;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox cmbClientlist;
     }
 }

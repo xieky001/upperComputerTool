@@ -85,7 +85,9 @@ namespace testDevice.MQTT
 
         private void MqttMsgSubscribedEventHandler(object sender, MqttMsgPublishEventArgs e)
         {
-            this.Invoke(new Action(() =>
+            try
+            {
+                this.Invoke(new Action(() =>
                 {
                     rtxtReceiveMsg.ScrollToCaret();
                     rtxtReceiveMsg.AppendText(Environment.NewLine);
@@ -93,7 +95,9 @@ namespace testDevice.MQTT
                     rtxtReceiveMsg.AppendText("  " + Encoding.UTF8.GetString(e.Message) + Environment.NewLine);
                     rtxtReceiveMsg.ScrollToCaret();
                 })
-            );
+                );
+            }
+            catch (Exception ex) { }
         }
 
         private void btnClear_Click(object sender, EventArgs e)

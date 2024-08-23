@@ -1,6 +1,6 @@
-﻿namespace testDevice.TCP
+﻿namespace testDevice.UDP
 {
-    partial class ServerForm
+    partial class UDPClientForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnClear = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.labServerStatus = new System.Windows.Forms.Label();
             this.btnConnect = new System.Windows.Forms.Button();
             this.labPassword = new System.Windows.Forms.Label();
             this.labUsername = new System.Windows.Forms.Label();
             this.labPort = new System.Windows.Forms.Label();
-            this.btnSend = new System.Windows.Forms.Button();
-            this.txtSend = new System.Windows.Forms.TextBox();
             this.labHost = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnSend = new System.Windows.Forms.Button();
+            this.txtSend = new System.Windows.Forms.TextBox();
             this.rtxtSendMsg = new System.Windows.Forms.RichTextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cmbClientlist = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnClear
+            // groupBox1
             // 
-            this.btnClear.Location = new System.Drawing.Point(449, 397);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(72, 20);
-            this.btnClear.TabIndex = 11;
-            this.btnClear.Text = "清空";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            this.groupBox1.Controls.Add(this.labServerStatus);
+            this.groupBox1.Controls.Add(this.btnConnect);
+            this.groupBox1.Controls.Add(this.labPassword);
+            this.groupBox1.Controls.Add(this.labUsername);
+            this.groupBox1.Controls.Add(this.labPort);
+            this.groupBox1.Controls.Add(this.labHost);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(4, 3);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(567, 62);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "连接信息";
             // 
             // labServerStatus
             // 
@@ -72,7 +80,7 @@
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(57, 20);
             this.btnConnect.TabIndex = 4;
-            this.btnConnect.Text = "启动";
+            this.btnConnect.Text = "连接";
             this.btnConnect.UseVisualStyleBackColor = true;
             this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
@@ -100,25 +108,6 @@
             this.labPort.Size = new System.Drawing.Size(0, 12);
             this.labPort.TabIndex = 7;
             // 
-            // btnSend
-            // 
-            this.btnSend.Location = new System.Drawing.Point(449, 371);
-            this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(72, 20);
-            this.btnSend.TabIndex = 9;
-            this.btnSend.Text = "发送";
-            this.btnSend.UseVisualStyleBackColor = true;
-            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
-            // 
-            // txtSend
-            // 
-            this.txtSend.BackColor = System.Drawing.Color.White;
-            this.txtSend.Location = new System.Drawing.Point(3, 339);
-            this.txtSend.Multiline = true;
-            this.txtSend.Name = "txtSend";
-            this.txtSend.Size = new System.Drawing.Size(403, 94);
-            this.txtSend.TabIndex = 8;
-            // 
             // labHost
             // 
             this.labHost.AutoSize = true;
@@ -127,6 +116,15 @@
             this.labHost.Name = "labHost";
             this.labHost.Size = new System.Drawing.Size(0, 12);
             this.labHost.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(457, 17);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 12);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "密码:";
             // 
             // label3
             // 
@@ -155,71 +153,61 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "服务器:";
             // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(496, 402);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(72, 20);
+            this.btnClear.TabIndex = 15;
+            this.btnClear.Text = "清空";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnSend
+            // 
+            this.btnSend.Location = new System.Drawing.Point(496, 373);
+            this.btnSend.Name = "btnSend";
+            this.btnSend.Size = new System.Drawing.Size(72, 20);
+            this.btnSend.TabIndex = 13;
+            this.btnSend.Text = "发送";
+            this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
+            // 
+            // txtSend
+            // 
+            this.txtSend.BackColor = System.Drawing.Color.White;
+            this.txtSend.Location = new System.Drawing.Point(4, 361);
+            this.txtSend.Multiline = true;
+            this.txtSend.Name = "txtSend";
+            this.txtSend.Size = new System.Drawing.Size(483, 69);
+            this.txtSend.TabIndex = 12;
+            // 
             // rtxtSendMsg
             // 
             this.rtxtSendMsg.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.rtxtSendMsg.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtxtSendMsg.Location = new System.Drawing.Point(3, 73);
+            this.rtxtSendMsg.Location = new System.Drawing.Point(4, 70);
             this.rtxtSendMsg.Name = "rtxtSendMsg";
             this.rtxtSendMsg.ReadOnly = true;
-            this.rtxtSendMsg.Size = new System.Drawing.Size(567, 260);
-            this.rtxtSendMsg.TabIndex = 10;
+            this.rtxtSendMsg.Size = new System.Drawing.Size(567, 285);
+            this.rtxtSendMsg.TabIndex = 14;
             this.rtxtSendMsg.Text = "";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(457, 17);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 12);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "密码:";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.labServerStatus);
-            this.groupBox1.Controls.Add(this.btnConnect);
-            this.groupBox1.Controls.Add(this.labPassword);
-            this.groupBox1.Controls.Add(this.labUsername);
-            this.groupBox1.Controls.Add(this.labPort);
-            this.groupBox1.Controls.Add(this.labHost);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(3, 5);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(567, 62);
-            this.groupBox1.TabIndex = 7;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "连接信息";
-            // 
-            // cmbClientlist
-            // 
-            this.cmbClientlist.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbClientlist.FormattingEnabled = true;
-            this.cmbClientlist.Location = new System.Drawing.Point(412, 339);
-            this.cmbClientlist.Name = "cmbClientlist";
-            this.cmbClientlist.Size = new System.Drawing.Size(158, 20);
-            this.cmbClientlist.TabIndex = 12;
-            this.cmbClientlist.SelectedIndexChanged += new System.EventHandler(this.cmbClientlist_SelectedIndexChanged);
-            // 
-            // ServerForm
+            // ClientForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(574, 429);
-            this.Controls.Add(this.cmbClientlist);
+            this.ClientSize = new System.Drawing.Size(577, 435);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtSend);
             this.Controls.Add(this.rtxtSendMsg);
             this.Controls.Add(this.groupBox1);
-            this.Name = "ServerForm";
+            this.Name = "UDPClientForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ServerForm";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ServerForm_FormClosed);
-            this.Load += new System.EventHandler(this.ServerForm_Load);
+            this.Text = "UDPClientForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ClientForm_FormClosed);
+            this.Load += new System.EventHandler(this.ClientForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -229,21 +217,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label labServerStatus;
         private System.Windows.Forms.Button btnConnect;
         private System.Windows.Forms.Label labPassword;
         private System.Windows.Forms.Label labUsername;
         private System.Windows.Forms.Label labPort;
-        private System.Windows.Forms.Button btnSend;
-        private System.Windows.Forms.TextBox txtSend;
         private System.Windows.Forms.Label labHost;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.TextBox txtSend;
         private System.Windows.Forms.RichTextBox rtxtSendMsg;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox cmbClientlist;
     }
 }

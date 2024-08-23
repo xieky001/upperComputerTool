@@ -128,8 +128,7 @@ namespace testDevice.TCP
             }
             nStream.Close();
             nStream.Dispose();
-            tcpClient.Close();
-            tcpClient.Dispose();
+            releaseClient();
         }
 
         //发送心跳信息
@@ -152,8 +151,7 @@ namespace testDevice.TCP
             }
             networkStream.Close();
             networkStream.Dispose();
-            tcpClient.Close();
-            tcpClient.Dispose();
+            releaseClient();
         }
 
         private string assembleHeatBeatMsg() { 
@@ -202,12 +200,20 @@ namespace testDevice.TCP
         {
             try
             {
-                if (tcpClient != null && tcpClient.Connected) {
-                    tcpClient.Close();
-                    tcpClient.Dispose();
-                }
+                releaseClient();
             }
             catch { }
          }
+
+        private void releaseClient()
+        {
+            cts.Cancel();
+            if (tcpClient != null)
+            {
+                tcpClient.Close();
+                tcpClient.Dispose();
+                tcpClient = null;
+            }
+        }
     }
 }

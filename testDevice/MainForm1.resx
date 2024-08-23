@@ -145,29 +145,29 @@
   <data name="mQTTToolStripMenuItem.Text" xml:space="preserve">
     <value>MQTT</value>
   </data>
-  <data name="tCPToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="tCPToolStripMenuItem1.Text" xml:space="preserve">
-    <value>TCP配置</value>
-  </data>
-  <data name="服务端ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="服务端ToolStripMenuItem.Text" xml:space="preserve">
-    <value>服务端</value>
-  </data>
-  <data name="客户端ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="客户端ToolStripMenuItem.Text" xml:space="preserve">
-    <value>客户端</value>
-  </data>
   <data name="tCPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 21</value>
   </data>
   <data name="tCPToolStripMenuItem.Text" xml:space="preserve">
     <value>TCP</value>
+  </data>
+  <data name="uDP配置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="uDP配置ToolStripMenuItem.Text" xml:space="preserve">
+    <value>UDP配置</value>
+  </data>
+  <data name="服务端ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="服务端ToolStripMenuItem1.Text" xml:space="preserve">
+    <value>服务端</value>
+  </data>
+  <data name="客户端ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="客户端ToolStripMenuItem1.Text" xml:space="preserve">
+    <value>客户端</value>
   </data>
   <data name="uDPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 21</value>
@@ -256,22 +256,40 @@
     <value>通用工具</value>
   </data>
   <data name="服务配置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>136, 22</value>
   </data>
   <data name="服务配置ToolStripMenuItem.Text" xml:space="preserve">
     <value>MQTT配置</value>
   </data>
   <data name="消息发布ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>136, 22</value>
   </data>
   <data name="消息发布ToolStripMenuItem.Text" xml:space="preserve">
     <value>消息发布</value>
   </data>
   <data name="消息订阅ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>136, 22</value>
   </data>
   <data name="消息订阅ToolStripMenuItem.Text" xml:space="preserve">
     <value>消息订阅</value>
+  </data>
+  <data name="tCPToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="tCPToolStripMenuItem1.Text" xml:space="preserve">
+    <value>TCP配置</value>
+  </data>
+  <data name="服务端ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="服务端ToolStripMenuItem.Text" xml:space="preserve">
+    <value>服务端</value>
+  </data>
+  <data name="客户端ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="客户端ToolStripMenuItem.Text" xml:space="preserve">
+    <value>客户端</value>
   </data>
   <data name="认证加密测试ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>148, 22</value>
@@ -290,12 +308,6 @@
   </data>
   <data name="查看协议ToolStripMenuItem.Text" xml:space="preserve">
     <value>查看协议</value>
-  </data>
-  <data name="uDP配置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="uDP配置ToolStripMenuItem.Text" xml:space="preserve">
-    <value>UDP配置</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -390,6 +402,42 @@
   <data name="&gt;&gt;消息订阅ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;tCPToolStripMenuItem.Name" xml:space="preserve">
+    <value>tCPToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tCPToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tCPToolStripMenuItem1.Name" xml:space="preserve">
+    <value>tCPToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;tCPToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;服务端ToolStripMenuItem.Name" xml:space="preserve">
+    <value>服务端ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;服务端ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;客户端ToolStripMenuItem.Name" xml:space="preserve">
+    <value>客户端ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;客户端ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uDPToolStripMenuItem.Name" xml:space="preserve">
+    <value>uDPToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;uDPToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uDP配置ToolStripMenuItem.Name" xml:space="preserve">
+    <value>uDP配置ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;uDP配置ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;其他ToolStripMenuItem.Name" xml:space="preserve">
     <value>其他ToolStripMenuItem</value>
   </data>
@@ -420,40 +468,16 @@
   <data name="&gt;&gt;查看协议ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tCPToolStripMenuItem.Name" xml:space="preserve">
-    <value>tCPToolStripMenuItem</value>
+  <data name="&gt;&gt;服务端ToolStripMenuItem1.Name" xml:space="preserve">
+    <value>服务端ToolStripMenuItem1</value>
   </data>
-  <data name="&gt;&gt;tCPToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;服务端ToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;uDPToolStripMenuItem.Name" xml:space="preserve">
-    <value>uDPToolStripMenuItem</value>
+  <data name="&gt;&gt;客户端ToolStripMenuItem1.Name" xml:space="preserve">
+    <value>客户端ToolStripMenuItem1</value>
   </data>
-  <data name="&gt;&gt;uDPToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tCPToolStripMenuItem1.Name" xml:space="preserve">
-    <value>tCPToolStripMenuItem1</value>
-  </data>
-  <data name="&gt;&gt;tCPToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;uDP配置ToolStripMenuItem.Name" xml:space="preserve">
-    <value>uDP配置ToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;uDP配置ToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;服务端ToolStripMenuItem.Name" xml:space="preserve">
-    <value>服务端ToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;服务端ToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;客户端ToolStripMenuItem.Name" xml:space="preserve">
-    <value>客户端ToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;客户端ToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;客户端ToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
