@@ -122,9 +122,9 @@ namespace testDevice.UDP
 
         private void releaseClient()
         {
-            cts.Cancel();
             if (udpListener != null)
             {
+                cts.Cancel();
                 udpListener.Close();
                 udpListener.Dispose();
                 udpListener = null;

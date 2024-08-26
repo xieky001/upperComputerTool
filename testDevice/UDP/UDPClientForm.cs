@@ -147,7 +147,10 @@ namespace testDevice.UDP
         }
 
         private void releaseClient() {
-            cts.Cancel();
+            if (cts != null)
+            {
+                cts.Cancel();
+            }
             if (udpClient != null)
             {
                 udpClient.Close();

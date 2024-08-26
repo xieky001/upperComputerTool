@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\DEV\\testTool\\testDevice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\mqtt\\mqttreceiveform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\mqtt\\mqttreceiveform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\tcp\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\tcp\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\tcp\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\tcp\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\tcp\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\tcp\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\udp\\udpclientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\udp\\udpclientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\udp\\udpserverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\udp\\udpserverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\udp\\udpserverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\udp\\udpserverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\udp\\udpclientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\udp\\udpclientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\udp\\udpclientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\udp\\udpclientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,62 +26,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MqttReceiveForm.cs",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\MQTT\\MqttReceiveForm.cs",
-              "RelativeDocumentMoniker": "testDevice\\MQTT\\MqttReceiveForm.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\MQTT\\MqttReceiveForm.cs",
-              "RelativeToolTip": "testDevice\\MQTT\\MqttReceiveForm.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAvwG0AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T03:21:40.824Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ClientForm.cs",
               "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ClientForm.cs",
               "RelativeDocumentMoniker": "testDevice\\TCP\\ClientForm.cs",
               "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ClientForm.cs",
               "RelativeToolTip": "testDevice\\TCP\\ClientForm.cs",
-              "ViewState": "AQIAALgAAAAAAAAAAAAvwIIAAAAZAAAA",
+              "ViewState": "AQIAALkAAAAAAAAAAAAAANAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T03:12:23.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServerForm.cs",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ServerForm.cs",
-              "RelativeDocumentMoniker": "testDevice\\TCP\\ServerForm.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ServerForm.cs",
-              "RelativeToolTip": "testDevice\\TCP\\ServerForm.cs",
-              "ViewState": "AQIAAOEAAAAAAAAAAAAAAAEBAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T03:09:24.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UDPServerForm.cs",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\UDP\\UDPServerForm.cs",
-              "RelativeDocumentMoniker": "testDevice\\UDP\\UDPServerForm.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\UDP\\UDPServerForm.cs",
-              "RelativeToolTip": "testDevice\\UDP\\UDPServerForm.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAH8AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T02:38:01.303Z",
+              "WhenOpened": "2024-08-26T08:42:49.223Z",
               "EditorCaption": ""
             },
             {
@@ -104,34 +53,36 @@
               "RelativeDocumentMoniker": "testDevice\\UDP\\UDPClientForm.cs",
               "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\UDP\\UDPClientForm.cs",
               "RelativeToolTip": "testDevice\\UDP\\UDPClientForm.cs",
-              "ViewState": "AQIAAIYAAAAAAAAAAAAvwJQAAAAAAAAA",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAvwJQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T01:23:57.129Z",
+              "WhenOpened": "2024-08-26T08:42:17.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UDPClientForm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\UDP\\UDPClientForm.cs",
-              "RelativeDocumentMoniker": "testDevice\\UDP\\UDPClientForm.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\UDP\\UDPClientForm.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "testDevice\\UDP\\UDPClientForm.cs [\u8BBE\u8BA1]",
+              "DocumentIndex": 1,
+              "Title": "ServerForm.cs",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ServerForm.cs",
+              "RelativeDocumentMoniker": "testDevice\\TCP\\ServerForm.cs",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\TCP\\ServerForm.cs",
+              "RelativeToolTip": "testDevice\\TCP\\ServerForm.cs",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAvwPsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T01:23:54.729Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-08-26T08:41:20.967Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UDPServerForm.cs [\u8BBE\u8BA1]",
+              "DocumentIndex": 2,
+              "Title": "UDPServerForm.cs",
               "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\UDP\\UDPServerForm.cs",
               "RelativeDocumentMoniker": "testDevice\\UDP\\UDPServerForm.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\UDP\\UDPServerForm.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "testDevice\\UDP\\UDPServerForm.cs [\u8BBE\u8BA1]",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\UDP\\UDPServerForm.cs",
+              "RelativeToolTip": "testDevice\\UDP\\UDPServerForm.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAHsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T01:00:57.8Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-08-24T01:16:41.471Z",
+              "EditorCaption": ""
             }
           ]
         }

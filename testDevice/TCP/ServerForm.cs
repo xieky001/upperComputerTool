@@ -253,9 +253,9 @@ namespace testDevice.TCP
 
         private void releaseClient()
         {
-            cts.Cancel();
             if (tcpListener != null)
             {
+                cts.Cancel();
                 tcpListener.Stop();
                 tcpListener = null;
             }
