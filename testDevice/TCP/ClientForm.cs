@@ -211,7 +211,7 @@ namespace testDevice.TCP
                 cts.Cancel();
             }
             if (tcpClient != null)
-            {                
+            {
                 tcpClient.Close();
                 tcpClient.Dispose();
                 tcpClient = null;

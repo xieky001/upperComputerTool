@@ -36,7 +36,6 @@
             this.loRawan测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.配置文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.组装帧ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.通用工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mQTTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.服务配置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,13 +47,14 @@
             this.客户端ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uDPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uDP配置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.服务端ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.客户端ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.其他ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.认证加密测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.查看协议ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.服务端ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.客户端ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.自组装帧ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,7 +79,8 @@
             this.产品测试ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.打开端口ToolStripMenuItem,
             this.toolStripMenuItem1,
-            this.loRawan测试ToolStripMenuItem});
+            this.loRawan测试ToolStripMenuItem,
+            this.自组装帧ToolStripMenuItem});
             resources.ApplyResources(this.产品测试ToolStripMenuItem, "产品测试ToolStripMenuItem");
             this.产品测试ToolStripMenuItem.Name = "产品测试ToolStripMenuItem";
             // 
@@ -104,7 +105,6 @@
             // 
             this.工具ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.配置文件ToolStripMenuItem,
-            this.组装帧ToolStripMenuItem,
             this.通用工具ToolStripMenuItem});
             resources.ApplyResources(this.工具ToolStripMenuItem, "工具ToolStripMenuItem");
             this.工具ToolStripMenuItem.Name = "工具ToolStripMenuItem";
@@ -114,12 +114,6 @@
             this.配置文件ToolStripMenuItem.Name = "配置文件ToolStripMenuItem";
             resources.ApplyResources(this.配置文件ToolStripMenuItem, "配置文件ToolStripMenuItem");
             this.配置文件ToolStripMenuItem.Click += new System.EventHandler(this.配置文件ToolStripMenuItem_Click);
-            // 
-            // 组装帧ToolStripMenuItem
-            // 
-            this.组装帧ToolStripMenuItem.Name = "组装帧ToolStripMenuItem";
-            resources.ApplyResources(this.组装帧ToolStripMenuItem, "组装帧ToolStripMenuItem");
-            this.组装帧ToolStripMenuItem.Click += new System.EventHandler(this.组装帧ToolStripMenuItem_Click);
             // 
             // 通用工具ToolStripMenuItem
             // 
@@ -196,6 +190,18 @@
             resources.ApplyResources(this.uDP配置ToolStripMenuItem, "uDP配置ToolStripMenuItem");
             this.uDP配置ToolStripMenuItem.Click += new System.EventHandler(this.uDP配置ToolStripMenuItem_Click);
             // 
+            // 服务端ToolStripMenuItem1
+            // 
+            this.服务端ToolStripMenuItem1.Name = "服务端ToolStripMenuItem1";
+            resources.ApplyResources(this.服务端ToolStripMenuItem1, "服务端ToolStripMenuItem1");
+            this.服务端ToolStripMenuItem1.Click += new System.EventHandler(this.服务端ToolStripMenuItem1_Click);
+            // 
+            // 客户端ToolStripMenuItem1
+            // 
+            this.客户端ToolStripMenuItem1.Name = "客户端ToolStripMenuItem1";
+            resources.ApplyResources(this.客户端ToolStripMenuItem1, "客户端ToolStripMenuItem1");
+            this.客户端ToolStripMenuItem1.Click += new System.EventHandler(this.客户端ToolStripMenuItem1_Click);
+            // 
             // 其他ToolStripMenuItem
             // 
             this.其他ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -229,17 +235,11 @@
             resources.ApplyResources(this.查看协议ToolStripMenuItem, "查看协议ToolStripMenuItem");
             this.查看协议ToolStripMenuItem.Click += new System.EventHandler(this.查看协议ToolStripMenuItem_Click);
             // 
-            // 服务端ToolStripMenuItem1
+            // 自组装帧ToolStripMenuItem
             // 
-            this.服务端ToolStripMenuItem1.Name = "服务端ToolStripMenuItem1";
-            resources.ApplyResources(this.服务端ToolStripMenuItem1, "服务端ToolStripMenuItem1");
-            this.服务端ToolStripMenuItem1.Click += new System.EventHandler(this.服务端ToolStripMenuItem1_Click);
-            // 
-            // 客户端ToolStripMenuItem1
-            // 
-            this.客户端ToolStripMenuItem1.Name = "客户端ToolStripMenuItem1";
-            resources.ApplyResources(this.客户端ToolStripMenuItem1, "客户端ToolStripMenuItem1");
-            this.客户端ToolStripMenuItem1.Click += new System.EventHandler(this.客户端ToolStripMenuItem1_Click);
+            this.自组装帧ToolStripMenuItem.Name = "自组装帧ToolStripMenuItem";
+            resources.ApplyResources(this.自组装帧ToolStripMenuItem, "自组装帧ToolStripMenuItem");
+            this.自组装帧ToolStripMenuItem.Click += new System.EventHandler(this.自组装帧ToolStripMenuItem_Click);
             // 
             // MainForm1
             // 
@@ -268,7 +268,6 @@
         private System.Windows.Forms.ToolStripMenuItem 其他ToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem 测试ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 组装帧ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 打开端口ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 认证加密测试ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 查看协议ToolStripMenuItem;
@@ -285,6 +284,7 @@
         private System.Windows.Forms.ToolStripMenuItem 客户端ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 服务端ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem 客户端ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 自组装帧ToolStripMenuItem;
     }
 }
 

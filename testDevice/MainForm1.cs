@@ -255,5 +255,15 @@ namespace testDevice
                 myForm.Show();
             }
         }
+
+        private void 自组装帧ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!IsHaveExists("AutoAssembleFrameForm"))
+            {
+                Form myForm = new AutoAssembleFrameForm();
+                myForm.MdiParent = this;
+                myForm.Show();
+            }
+        }
     }
 }
