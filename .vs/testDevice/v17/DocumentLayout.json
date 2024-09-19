@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\protocoldata\\97_l511c.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\protocoldata\\97_l511c.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\protocoldata\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\protocoldata\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "config.json",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\protocoldata\\config.json",
-              "RelativeDocumentMoniker": "testDevice\\protocoldata\\config.json",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\protocoldata\\config.json",
-              "RelativeToolTip": "testDevice\\protocoldata\\config.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-19T02:56:49.091Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -45,9 +28,9 @@
               "RelativeDocumentMoniker": "testDevice\\protocoldata\\97_L511C.json",
               "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\protocoldata\\97_L511C.json",
               "RelativeToolTip": "testDevice\\protocoldata\\97_L511C.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-19T02:56:34.559Z",
+              "WhenOpened": "2024-09-19T05:03:13.21Z",
               "EditorCaption": ""
             }
           ]

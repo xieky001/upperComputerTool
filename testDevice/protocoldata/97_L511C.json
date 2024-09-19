@@ -31,4 +31,4 @@
 {"keyFlag": "FD80","keyInfo": "上1次每日小时冻结数据","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FD89","keyInfo": "上10次每日小时冻结数据","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FEBA","keyInfo": "触发上报指定日期数据（数据组5、6、7），只能通过NB下发，年月日,BCD码，不需要反序","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
-]
+] 
