@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\DEV\\testTool\\testDevice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\mainform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\mainform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\protocoldata\\97_l511c.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\protocoldata\\97_l511c.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\mainform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\mainform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\protocoldata\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\protocoldata\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +27,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainForm1.cs",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\MainForm1.cs",
-              "RelativeDocumentMoniker": "testDevice\\MainForm1.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\MainForm1.cs",
-              "RelativeToolTip": "testDevice\\MainForm1.cs",
-              "ViewState": "AQIAAO8AAAAAAAAAAAAuwAkBAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T08:32:26.426Z",
+              "Title": "config.json",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\protocoldata\\config.json",
+              "RelativeDocumentMoniker": "testDevice\\protocoldata\\config.json",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\protocoldata\\config.json",
+              "RelativeToolTip": "testDevice\\protocoldata\\config.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T02:56:49.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainForm1.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\MainForm1.cs",
-              "RelativeDocumentMoniker": "testDevice\\MainForm1.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\MainForm1.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "testDevice\\MainForm1.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T08:31:16.658Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "Title": "97_L511C.json",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\protocoldata\\97_L511C.json",
+              "RelativeDocumentMoniker": "testDevice\\protocoldata\\97_L511C.json",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\protocoldata\\97_L511C.json",
+              "RelativeToolTip": "testDevice\\protocoldata\\97_L511C.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T02:56:34.559Z",
+              "EditorCaption": ""
             }
           ]
         }

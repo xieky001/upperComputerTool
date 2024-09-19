@@ -5,8 +5,6 @@ D:\DEV\testTool\testDevice\testDevice\bin\Debug\docs\DL T 645-2007.pdf
 D:\DEV\testTool\testDevice\testDevice\bin\Debug\docs\DLT 645-1997.pdf
 D:\DEV\testTool\testDevice\testDevice\bin\Debug\docs\集中器本地通信模块接口协议.pdf
 D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\07.json
-D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\188.json
-D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\97.json
 D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\config.json
 D:\DEV\testTool\testDevice\testDevice\bin\Debug\testDevice.exe.config
 D:\DEV\testTool\testDevice\testDevice\bin\Debug\testDevice.exe
@@ -60,3 +58,6 @@ D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\udpClientConfig.jso
 D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\udpConfig.json
 D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.UDP.UDPClientForm.resources
 D:\DEV\testTool\testDevice\testDevice\obj\Debug\testDevice.UDP.UDPServerForm.resources
+D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\188_lora.json
+D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\97_L511C.json
+D:\DEV\testTool\testDevice\testDevice\bin\Debug\protocoldata\97_lora.json

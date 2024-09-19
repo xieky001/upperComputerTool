@@ -262,10 +262,13 @@
     <None Include="protocoldata\07.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="protocoldata\188.json">
+    <None Include="protocoldata\188_lora.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="protocoldata\97.json">
+    <None Include="protocoldata\97_L511C.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="protocoldata\97_lora.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="protocoldata\frameConfig.json">
