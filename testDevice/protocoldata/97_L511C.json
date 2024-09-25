@@ -22,7 +22,7 @@
 {"keyFlag": "FEAB","keyInfo": "水表阀控测试 写0x11,阀控会开关动作一次","isCanRead": false,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FEAC","keyInfo": "清除冻结数据，写固定数据(0x15,0x82,0x06,0x26)","isCanRead": false,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "C010","keyInfo": "日期与周次BCD码（YYMMDDWW）","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
-{"keyFlag": "C011","keyInfo": "时间（HHMMSS）","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
+{"keyFlag": "C011","keyInfo": "时间（HHMMSS）","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 
 {"keyFlag": "FD00","keyInfo": "上1次月冻结数据（5BYTE年月日时分+4BYTE水量)","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FD31","keyInfo": "上50次月冻结数据（5BYTE年月日时分+4BYTE水量)","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},

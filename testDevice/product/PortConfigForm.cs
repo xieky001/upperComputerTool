@@ -58,6 +58,7 @@ namespace testDevice.product
             cmbBaudRate.Items.Add(9600);
             cmbBaudRate.Items.Add(14400);
             cmbBaudRate.Items.Add(19200);
+            cmbBaudRate.Items.Add(115200);
             cmbBaudRate.SelectedIndex = 3;
 
             paramGlobal.comPort = cmbComPort.Text;

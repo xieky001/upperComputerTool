@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "D:\\DEV\\testTool\\testDevice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\protocoldata\\97_l511c.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\product\\portconfigform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\product\\portconfigform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\product\\portconfigform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\product\\portconfigform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\pub\\dataconvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\pub\\dataconvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|D:\\DEV\\testTool\\testDevice\\testdevice\\protocoldata\\97_l511c.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\protocoldata\\97_l511c.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -23,15 +35,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PortConfigForm.cs",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\product\\PortConfigForm.cs",
+              "RelativeDocumentMoniker": "testDevice\\product\\PortConfigForm.cs",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\product\\PortConfigForm.cs",
+              "RelativeToolTip": "testDevice\\product\\PortConfigForm.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAuwDsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T05:15:50.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PortConfigForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\product\\PortConfigForm.cs",
+              "RelativeDocumentMoniker": "testDevice\\product\\PortConfigForm.cs",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\product\\PortConfigForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "testDevice\\product\\PortConfigForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T05:15:46.728Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dataConvert.cs",
+              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\pub\\dataConvert.cs",
+              "RelativeDocumentMoniker": "testDevice\\pub\\dataConvert.cs",
+              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\pub\\dataConvert.cs",
+              "RelativeToolTip": "testDevice\\pub\\dataConvert.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T08:09:07.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "97_L511C.json",
               "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\protocoldata\\97_L511C.json",
               "RelativeDocumentMoniker": "testDevice\\protocoldata\\97_L511C.json",
               "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\protocoldata\\97_L511C.json",
               "RelativeToolTip": "testDevice\\protocoldata\\97_L511C.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-19T05:03:13.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T07:19:13.658Z"
             }
           ]
         }
