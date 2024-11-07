@@ -1,10 +1,9 @@
 {
-  "server":
-    {
-      "host": "127.0.0.1",
-      "port": "1889",
-      "username": "xieky002",
-      "password": "11111"
+  "server": {
+    "host": "192.168.110.9",
+    "port": "1889",
+    "username": "xieky002",
+    "password": "11111"
   }
 }
 
