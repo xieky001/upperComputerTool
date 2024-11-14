@@ -1,7 +1,8 @@
 [
-{"keyFlag": "9010","keyInfo": "当前组合水量（BCD码）(正向-反向)","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
-{"keyFlag": "9020","keyInfo": "当前累计正向水量（BCD码）","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
-{"keyFlag": "9030","keyInfo": "当前累计反向水量（BCD码）","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
+{"keyFlag": "9010","keyInfo": "当前水量（BCD码）立方米","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
+{"keyFlag": "9020","keyInfo": "当前反向水量（BCD码）立方米","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
+{"keyFlag": "9030","keyInfo": "当前水量（BCD码）升","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
+{"keyFlag": "9040","keyInfo": "当前反向水量（BCD码）升","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FE09","keyInfo": "水表底度设置，BCD码，写入后读9010核对","isCanRead": false,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FA01","keyInfo": "接收信号强度RSSI,1字节有符号数","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FA02","keyInfo": "水表上报周期  HEX码，低字节在前","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},

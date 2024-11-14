@@ -1,7 +1,7 @@
 {
   "server": {
-    "host": "121.37.83.177",
-    "port": "8082",
+    "host": "192.168.110.9",
+    "port": "1889",
     "username": "xieky002",
     "password": "11111"
   }

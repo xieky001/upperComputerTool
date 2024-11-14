@@ -79,6 +79,8 @@ namespace testDevice.pub
             }
                 
         }
+        public string fieldType { get; set; }
+
         public Boolean isCanRead { get; set; }
         public Boolean isCanEdit { get; set; }
 

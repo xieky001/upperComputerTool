@@ -182,11 +182,11 @@ namespace testDevice.Lora
 
         private Boolean initFrame(Boolean isSet = false, string strData = "", Boolean isAddr = false)
         {
-            if (isSet && string.IsNullOrEmpty(paramGlobal.devAddress))
-            {
-                MessageBox.Show("写数据时请先读取表号。");
-                return false;
-            }
+            //if (isSet && string.IsNullOrEmpty(paramGlobal.devAddress))
+            //{
+            //    MessageBox.Show("写数据时请先读取表号。");
+            //    return false;
+            //}
 
             frame.data = strData;
             frame.addr = isSet ? paramGlobal.devAddress : paramGlobal.broadcastAddress;
@@ -334,10 +334,22 @@ namespace testDevice.Lora
         private string getHandleData()
         {
             string strHandle = string.Empty;
-            strHandle += dataConvert.strConverse(txtInsertValue1.Text.Trim());
-            strHandle += dataConvert.strConverse(txtInsertValue2.Text.Trim());
-            strHandle += dataConvert.strConverse(txtInsertValue3.Text.Trim());
-            strHandle += dataConvert.strConverse(txtInsertValue4.Text.Trim());
+            string strFieldType = string.Empty;
+            strFieldType = curProtocolDataItem.fieldType;
+            if (strFieldType == "string") {
+                if (txtInsertValue1.Text.Trim() != "") strHandle += BitConverter.ToString(Encoding.ASCII.GetBytes(txtInsertValue1.Text.Trim())).Replace("-"," ");
+                if (txtInsertValue2.Text.Trim() != "") strHandle += BitConverter.ToString(Encoding.ASCII.GetBytes(txtInsertValue2.Text.Trim())).Replace("-", " ");
+                if (txtInsertValue3.Text.Trim() != "") strHandle += BitConverter.ToString(Encoding.ASCII.GetBytes(txtInsertValue3.Text.Trim())).Replace("-", " ");
+                if (txtInsertValue4.Text.Trim() != "") strHandle += BitConverter.ToString(Encoding.ASCII.GetBytes(txtInsertValue4.Text.Trim())).Replace("-", " ");
+            }
+            else
+            {
+                strHandle += dataConvert.strConverse(txtInsertValue1.Text.Trim());
+                strHandle += dataConvert.strConverse(txtInsertValue2.Text.Trim());
+                strHandle += dataConvert.strConverse(txtInsertValue3.Text.Trim());
+                strHandle += dataConvert.strConverse(txtInsertValue4.Text.Trim());
+            }
+
             return strHandle;
         }
 
