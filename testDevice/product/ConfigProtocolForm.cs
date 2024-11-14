@@ -182,11 +182,11 @@ namespace testDevice.Lora
 
         private Boolean initFrame(Boolean isSet = false, string strData = "", Boolean isAddr = false)
         {
-            //if (isSet && string.IsNullOrEmpty(paramGlobal.devAddress))
-            //{
-            //    MessageBox.Show("写数据时请先读取表号。");
-            //    return false;
-            //}
+            if (isSet && string.IsNullOrEmpty(paramGlobal.devAddress))
+            {
+                MessageBox.Show("写数据时请先读取表号。");
+                return false;
+            }
 
             frame.data = strData;
             frame.addr = isSet ? paramGlobal.devAddress : paramGlobal.broadcastAddress;
