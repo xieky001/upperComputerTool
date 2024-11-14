@@ -124,5 +124,17 @@ namespace testDevice.pub
         {
             return (str.Replace(" ", "").Length / 2);
         }
+
+        //ASCII码串转换成字符串
+        public static string getStringFromAscII(string recData) {
+            recData = recData.Replace(" ", "");
+            int btLen = recData.Length / 2;
+            string txt = string.Empty;
+            for (int i = 0; i < btLen; i++)
+            {;
+                txt += Convert.ToChar(Convert.ToInt32(recData.Substring(i * 2, 2), 16));
+            }
+            return txt.Trim();
+        }
     }
 }

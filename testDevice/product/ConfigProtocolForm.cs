@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using testDevice.pub;
 using System.IO;
+using System.Xml.Linq;
 
 namespace testDevice.Lora
 {
@@ -281,6 +282,9 @@ namespace testDevice.Lora
                 txtDevAddr.Text = recData; 
                 paramGlobal.devAddress = recData;
             }
+            if (curProtocolDataItem.fieldType == "string") {
+                dataConvert.getStringFromAscII(recData);
+            }            
             
             return recData;
         }
