@@ -283,7 +283,7 @@ namespace testDevice.Lora
                 paramGlobal.devAddress = recData;
             }
             if (curProtocolDataItem.fieldType == "string") {
-                dataConvert.getStringFromAscII(recData);
+                return dataConvert.getStringFromAscII(recData);
             }            
             
             return recData;
