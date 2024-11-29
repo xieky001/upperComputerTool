@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DEV\\testTool\\testDevice\\",
+  "WorkspaceRootPath": "D:\\WorkSpace\\VS\\upperComputerTool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\product\\configprotocolform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\workspace\\vs\\uppercomputertool\\testdevice\\product\\configprotocolform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\product\\configprotocolform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\pub\\dataconvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\pub\\dataconvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|D:\\DEV\\testTool\\testDevice\\testdevice\\product\\configprotocolform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|D:\\WorkSpace\\VS\\upperComputerTool\\testdevice\\product\\configprotocolform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\product\\configprotocolform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\protocoldata\\97_l511c.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\protocoldata\\97_l511c.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|d:\\dev\\testtool\\testdevice\\testdevice\\pub\\protocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E081C381-3CAA-4FF0-A7E2-44475E60CA35}|testDevice\\testDevice.csproj|solutionrelative:testdevice\\pub\\protocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +18,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dataConvert.cs",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\pub\\dataConvert.cs",
-              "RelativeDocumentMoniker": "testDevice\\pub\\dataConvert.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\pub\\dataConvert.cs",
-              "RelativeToolTip": "testDevice\\pub\\dataConvert.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAuwFIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T05:29:54.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "protocol.cs",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\pub\\protocol.cs",
-              "RelativeDocumentMoniker": "testDevice\\pub\\protocol.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\pub\\protocol.cs",
-              "RelativeToolTip": "testDevice\\pub\\protocol.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAuwDoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T01:31:20.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "97_L511C.json",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\protocoldata\\97_L511C.json",
-              "RelativeDocumentMoniker": "testDevice\\protocoldata\\97_L511C.json",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\protocoldata\\97_L511C.json",
-              "RelativeToolTip": "testDevice\\protocoldata\\97_L511C.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-14T00:52:28.438Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ConfigProtocolForm.cs",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\product\\ConfigProtocolForm.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\VS\\upperComputerTool\\testDevice\\product\\ConfigProtocolForm.cs",
               "RelativeDocumentMoniker": "testDevice\\product\\ConfigProtocolForm.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\product\\ConfigProtocolForm.cs",
+              "ToolTip": "D:\\WorkSpace\\VS\\upperComputerTool\\testDevice\\product\\ConfigProtocolForm.cs",
               "RelativeToolTip": "testDevice\\product\\ConfigProtocolForm.cs",
-              "ViewState": "AQIAAAEBAAAAAAAAAAAgwBwBAAA8AAAA",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAuwPwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T03:16:45.859Z",
+              "WhenOpened": "2024-11-29T08:23:40.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ConfigProtocolForm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\DEV\\testTool\\testDevice\\testDevice\\product\\ConfigProtocolForm.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\VS\\upperComputerTool\\testDevice\\product\\ConfigProtocolForm.cs",
               "RelativeDocumentMoniker": "testDevice\\product\\ConfigProtocolForm.cs",
-              "ToolTip": "D:\\DEV\\testTool\\testDevice\\testDevice\\product\\ConfigProtocolForm.cs [\u8BBE\u8BA1]",
+              "ToolTip": "D:\\WorkSpace\\VS\\upperComputerTool\\testDevice\\product\\ConfigProtocolForm.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "testDevice\\product\\ConfigProtocolForm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T03:16:40.467Z",

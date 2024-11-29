@@ -277,6 +277,7 @@ namespace testDevice.Lora
             }
         }
 
+
         private string getResultData(string recData, string dataFlag) {
             if(dataFlag.ToUpper() == "C0 32" || dataFlag.ToUpper() == "0A 81") { 
                 txtDevAddr.Text = recData; 
