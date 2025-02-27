@@ -16,7 +16,7 @@
       "type": "188",
       "password": "",
       "user": "",
-      "filepath": "protocoldata/188.json"
+      "filepath": "protocoldata/188_lora.json"
     }
   ],
   "usertype": "dev", //dev/test/customer

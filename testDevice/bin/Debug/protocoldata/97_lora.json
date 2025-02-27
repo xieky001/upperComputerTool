@@ -10,6 +10,7 @@
 {"keyFlag": "FA04","keyInfo": "水表电池电压 BCD码","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FA05","keyInfo": "水表软件版本号","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FA07","keyInfo": "最大开关阀时间 HEX码","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
+{"keyFlag": "FA0A","keyInfo": "LORAWAN发射功率","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FA0B","keyInfo": "LORAWAN激活模式，0x01:OTAA模式；0x02：ABP模式 默认OTAA模式","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FA0C","keyInfo": "LORAWAN参数设置:DEVEUI：8字节 APPEUI:8字节 APPKEY：16字节","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FA0D","keyInfo": "LORAWAN参数设置 DevAddr：4字节 NwkSKey:16字节 AppSKey：16字节","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
