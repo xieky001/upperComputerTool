@@ -19,7 +19,7 @@
 {"keyFlag": "FA12","keyInfo": "188协议水表类型，具体对照188协议水表类型列表 默认为0x10(冷水表)","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FA13","keyInfo": "LORAWAN默认使用速率0x00~0x05,默认0x01","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FA14","keyInfo": "是否允许动态调整速率，0x00:不允许，0x01:允许 默认0x01","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
-{"keyFlag": "C032","keyInfo": "水表97协议表号，DEVEUI的后6字节","isCanRead": true,"isCanEdit": false,"readControlCode": "01","setControlCode": "0A"},
+{"keyFlag": "C032","keyInfo": "水表97协议表号，DEVEUI的后6字节","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "C01F","keyInfo": "日期时间 BCD码 传输顺序：周次日月年秒分时","isCanRead": true,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "C028","keyInfo": "水表开关阀，0x5533:水表关阀，0x9966:水表开阀","isCanRead": false,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
 {"keyFlag": "FEAB","keyInfo": "水表阀控测试 写0x11,阀控会开关动作一次","isCanRead": false,"isCanEdit": true,"readControlCode": "01","setControlCode": "04"},
